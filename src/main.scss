@@ -1,0 +1,32 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+#defaultUploadFile {
+    display: none;
+}
+
+.default__bg {
+    // background-image: url(../images/background/Frame\ 3.png);
+    background-size: cover;
+    background-position: center center;
+    height: 384px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.default__uploadFile {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: Roboto, "Helvetica Neue";
+    font-weight: 600;
+    line-height: 18.75px;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
